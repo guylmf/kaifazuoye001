@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>勉强的计算器</title>
+<script type="text/javascript" src="jisuangqi2.js">
+
+</script>
+</head>
+
+<body>
+<form action=" " name="form1">
+<input type="text" name="firstNumber" onchange="checkNumber(this)" />
+<select name="operator">
+<option value="0">+</option>
+<option value="1">-</option>
+<option value="2">*</option>
+<option value="3">/</option>
+</select>
+<input type="text" name="secondNumber" onchange="checkNumber(this)" />
+<input type="button" value="=" onclick="calculate()" />
+<input type="text" name="result" readonly="readonly" />
+</form>
+
+<div>
+	本来想做键盘的那种，可是点击上面显示数字不会改变，就放弃了。。。
+</div>
+</body>
+</html>

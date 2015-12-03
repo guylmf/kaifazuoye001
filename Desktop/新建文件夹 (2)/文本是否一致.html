@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>验证文本框是否一致。。。</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<input type="text" id="p1" value="" />
+	<input type="text" id="p2" value="" />
+	<input type="button" onclick="check()" value="检查是否一致"/>
+</body>
+<script type="text/javascript">
+	function check(){
+  var psd1=document.getElementById("p1").value;
+  var psd2=document.getElementById("p2").value;
+  if(psd1!=psd2){
+ alert("内容不一致");
+ return false;
+  }
+  if(psd1==psd2){
+  	alert("ok,same")
+  return true;}
+    
+}
+</script>
+</html>
