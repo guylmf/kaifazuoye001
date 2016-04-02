@@ -1,0 +1,392 @@
+* {
+	margin:0px;
+	padding:0px;
+
+}
+body {
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #777777;
+}
+li {
+	list-style: none;
+}
+.top-bar {
+	color: #fff;
+	height: 85px;
+	width: 100%;
+	background: rgba(118,199,192,1);
+}
+
+.top-bar span {
+	display: inline-block;
+	font-size: 35px;
+	margin-top: 20px;
+	margin-left: 152px;
+}
+.top-bar ul{
+	margin-top: -34px;
+	margin-right:77px;
+	font-size: 15px;
+	height: 30px;
+}
+.top-bar ul li {
+	float: right;
+	list-style: none;
+	margin:0 15px;
+}
+.top-bar ul li a{
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	height: 30px;
+	padding:0 5px;
+	line-height: 30px;
+	color: #fff;
+	border-radius: 7px;
+}
+.top-bar-a:hover{
+	background:#E8645A ;
+	border-bottom-style:outset;
+	border-radius: 7px;
+}
+.show-div {
+	display: none;
+	width: 185px;
+    z-index: 73;
+    position: absolute;
+    background: #E2534B;
+    height:100px;
+    margin: 5px 0;
+    padding: 11px;
+    border-radius: 7px;
+}
+.show-div a{
+	background-color: #E5655D;
+	margin: 5px 0;
+}
+.show-div a:hover{
+	border-radius: 7px;
+	background:#76C7C0 ;
+}
+.modus {
+	font-weight: bold;
+}
+.home{
+	background:rgb(98,162,158);
+	border-bottom-style:outset;
+	border-radius: 7px;
+	font-size: 14px;
+}
+.home a:hover {
+	background:#E8645A ;
+	border-bottom-style:outset;
+	border-radius: 7px;
+}
+.search  {
+	display: block;
+	margin-left: 7px;
+	margin-top: 0px;
+	background: url(img/search.png) no-repeat center center;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	border-style: none;
+}
+.search:hover{
+	background: #62A29E;
+	border-bottom-style:outset;
+	border-radius: 7px;
+}
+.path-index {
+	margin-top: 10px;
+	height: 10px;
+	background: url(img/Path.png) repeat ;
+}
+
+.about-us {
+	width: 100%;
+	height: 80px;
+	background: #ECECEC;
+}
+.about-us h2 {
+	color: #849090;
+	display: block;
+	margin-left: 150px;
+	padding-top: 25px;
+}
+.about-us p {
+	float: right;
+	margin-right: 100px;
+	margin-top: -24px;
+}
+.about-us p span{
+	cursor: pointer;
+}
+.about-us p span:hover{
+	color:#E8645A;
+}
+.big-div {
+	margin: 0 auto;
+}
+/*主体部分*/
+.dh-div {
+	width: 100%;
+	height: 60px;
+	padding-top: 44px;
+}
+.dh-div span {
+	font-weight: bold;
+	font-size: 17px;
+	display: inline-block;
+	cursor: pointer;
+	background: #98A3A3;
+	color: #fff;
+	padding:5px 13px;
+	margin-right: 25px;
+	border-radius: 5px;
+	box-shadow: 2px 3px 2px #849090;
+}
+.dh-div span:hover{
+	background: #62A29E;
+}
+.pic-word {
+	width: 100%;
+	height:300px;
+	margin-top: 15px; 
+}
+.left-pic img{
+	width:48%;
+	height: 260px;
+	float: left;
+}
+.right-wor {
+	width:48%;
+	height: 260px;
+	float: right;
+}
+.right-wor p {
+	display: block;
+	margin-top: 30px;
+	width: 95%
+	font-size:17px;
+	line-height: 20px;
+}
+.rig-wor-div {
+	width: 100%;
+	height: 60px;
+}
+.rig-wor-div div{
+	float: left;
+	margin-top: 58px;
+}
+.rig-wor-div img{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: #528B86;
+	border-radius: 5px;
+	padding: 5px;
+}
+.rig-wor-div img:hover{
+	background: #E2534B;
+}
+.rig-wor-div span {
+	display: block;
+    margin: -31px 46px;
+}
+.rig-wor-div i{
+	text-align: center;
+    width: 155px;
+    height: 46px;
+    color: white;
+    line-height: 44px;
+    background: #76CACA;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    font-family: "微软雅黑";
+    font-style: normal;
+    margin-right: 60px;
+    margin-top: 52px;
+    float: right;
+    border-radius: 5px;
+    box-shadow: 2px 3px 2px #849090;
+}
+.rig-wor-div i:hover{
+	background: #E8645A;
+}
+
+/*fenye*/
+.buttons-div {
+	margin: 0px auto;
+	width: 60%;
+	height: 100px;
+}
+.buttons-div i {
+  	width: 40px;
+    color: white;
+    height: 40px;
+    line-height:44px;
+    background: #8C9898;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 22px;
+    font-family: "微软雅黑";
+    font-style: normal;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    border-bottom-style: outset;
+}
+.buttons-div i:hover{
+	background: #E5655D;
+}
+.buttons-div i.on{
+	background: #649792;
+}
+/*尾部*/
+.foot {
+	width: 100%;
+	height: 380px;
+    background: #76C7C0;
+    color: #fff;
+}
+.path003 {
+	height: 15px;
+	width: 100%;
+	background: url(img/path002.png) repeat;
+}
+.foot-cont {
+    height: 274px;
+    margin-top: 39px;
+}
+.fo-co-left {
+    margin-left: 93px;
+    width: 363px;
+    float: left;
+}
+.fo-co-left p {
+	display: block;
+	width: 360px;
+	line-height: 27px;
+}
+.modu {
+	font-weight: bold;
+	font-size: 26px;
+	font-style: italic;
+	display: block;
+}
+.vers {
+    font-weight: bolder;
+    font-size: 17px;
+    display: block;
+    margin-left: 118px;
+    margin-top: -23px;
+}
+.mo-ver {
+	margin: 20px auto;
+	display: block;
+}
+.fon-sty span{
+	font-style: italic;
+	margin-left: 15px;
+}
+.fo-co-center1 {
+	float: left;
+    width: 90px;
+    margin: 0 70px;
+}
+.fo-co-center1 h2 {
+	margin-bottom: 15px;
+}
+.fo-co-center1 a {
+	float: left;
+	display: block;
+	width: 100px;
+	clear: both;
+	text-decoration: none;
+	color: #fff;
+	margin-top: 7px;	
+}
+.fo-co-center1 a:hover{
+	color: #BBBBBB;
+	display: block;
+}
+.fo-co-center2 {
+	float: left;
+	margin-left: 50px;
+}
+.fo-co-center2 h2 {
+	margin-bottom: 15px;
+	display: block;
+}
+.fo-co-center2 a {
+	float: left;
+	display: block;
+	width: 100px;
+	clear: both;
+	text-decoration: none;
+	color: #fff;
+	margin-top: 7px;	
+}
+.fo-co-center2 a:hover{
+	color: #BBBBBB;
+	display: block;
+}
+.fo-co-right {
+	float: right;
+    margin-right: 25px;
+	width: 420px;
+}
+.fo-co-right img{
+	margin-top: 15px;
+}
+.img {
+	margin-top: -10px;
+}
+.img span {
+	display: block;
+	margin-top: -10px;
+	margin-left: 30px;
+}
+.from-the {
+	font-style: italic;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.fo-co-right span {
+	height: 14px;
+	margin-top: -40px;
+	margin-left: 90px;
+}
+.fo-co-right h6 {
+	margin-left:100px;
+	display: block;
+	height: 30px;
+	margin-top: 10px;
+}
+.from-the span {
+	margin: 0;
+}
+.footer {
+	height: 66px;
+	background: #6AB3AC;
+}
+.footer p {
+	font-size: 20px;
+	display: block;
+	margin-left: 60px;
+	
+}
+.footer div {
+	width: 200px;
+	height: 30px;
+	margin-left: 77%;	
+}
+.footer a {
+	display: block;
+	float: left;
+	width: 40px;
+	height: 40px
+}
